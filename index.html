@@ -7,16 +7,17 @@
   </head>
   <body>
     <div>
+      <!--start-->
       <header>
-        <h1>Experience VR</h1>
+        <h1>&lt;Experience VR &amp; more&gt;</h1>
         <p>a <em>simple</em> blog about virtual reality experiences</p>
 
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -34,7 +35,7 @@
         >
       </div>
       <main>
-        <section>
+        <section id="about">
           <h2>About this site</h2>
           <p>
             <span>Lorem ipsum dolor sit amet,</span> consectetur adipiscing
@@ -49,7 +50,8 @@
             </figcaption>
           </figure>
         </section>
-        <section>
+
+        <section id="articles">
           <header>
             <h2>Latest VR articles</h2>
             <p>By ken</p>
@@ -65,7 +67,7 @@
               ultrices euismod turpis eget porta. Etiam nulla massa, pretium et
               massa nec, ornare dignissim nisi.
             </p>
-            <a href="articles/2017/article.html">Read more</a>
+            <a href="articles/2017/article.html#vr-article">Read more</a>
             <footer>Published: June 12, 2024</footer>
           </article>
           <article>
@@ -82,9 +84,14 @@
           </article>
         </section>
 
-        <section>
+        <section id="contact">
           <h2>Contact</h2>
-          <p><strong>Email</strong> us at CoolVRExperience@gmail.com</p>
+          <p>
+            <strong>Email:</strong
+            ><a href="mailto: CoolVRExperience@gmail.com?subject=Hi%20there"
+              >CoolVRExperience@gmail.com</a
+            >
+          </p>
           <p><strong>Phone:</strong> 555-123-456</p>
           <p><strong>Addres:</strong> Ecatepec</p>
           <address>
@@ -121,5 +128,6 @@
         <p><small>&copy;2017 Experience VR, The Blog</small></p>
       </footer>
     </div>
+    <!--end wrapper div-->
   </body>
 </html>
